@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Voting</string>
+    <string name="linkToSignIn">
+        <a href="http://egov.kz">Регистрация</a>
+    </string>
+    <string name="linkToPass">
+        <a href="http://egov.kz">Забыли пароль?</a>
+    </string>
+    <string name="show_toast">Show Toast</string>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Main2Color"
+    tools:context="com.example.wilko98.voting.nurotanActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="245dp"
+                app:srcCompat="@mipmap/nazarbayev" />
+
+            <Button
+                android:id="@+id/vote"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="?attr/colorError"
+                android:text="Проголосовать" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="256dp"
+                android:layout_marginTop="16dp"
+                android:text="Информация о кондидате: Нурсулта́н Аби́шевич Назарба́ев (каз. Звук Нұрсұлтан Әбішұлы Назарбаев; р. 6 июля 1940 года, с. Чемолган, Каскеленский район, Алма-Атинская область) — советский и казахстанский государственный и политический деятель, действующий президент Казахстана с 24 апреля 1990 года.  В прошлом — президент Казахской ССР. В апреле 2015 года переизбран на пятый президентский срок на досрочных президентских выборах, по официальным данным набрав 97,75 % голосов избирателей. Председатель Совета Министров Казахской ССР (1984—1989). Член КПСС с 1962 года. Член ЦК КПСС (1986—1991); член Политбюро ЦК КПСС (1990—1991). Член Центральной ревизионной комиссии КПСС (1981—1986). Секретарь ЦК КП Казахстана (1979—1984), Первый секретарь ЦК КП Казахстана (1989—1991). Депутат Верховного Совета СССР 10—11-го созывов (1979—1989) от Северо-Казахстанской области[2][3]. Народный депутат СССР (1989—1991). Председатель Верховного Совета Казахской ССР (1990). Рекордсмен по длительности пребывания у власти на постсоветском пространстве: является лидером Казахстана с 22 июня 1989 года (дата назначения на пост первого секретаря ЦК КП Казахстана) по настоящее время — 28 лет, 10 месяцев, 4 дня[4]. Носитель официального титула «Лидер Нации» (каз. Елбасы; с 2010)."
+                android:textColor="@android:color/black"
+                android:textSize="10sp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
